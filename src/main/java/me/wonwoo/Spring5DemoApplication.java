@@ -1,6 +1,5 @@
 package me.wonwoo;
 
-import me.wonwoo.person.Person;
 import me.wonwoo.person.PersonHandler;
 import me.wonwoo.person.PersonRepository;
 import org.springframework.boot.CommandLineRunner;
@@ -10,8 +9,6 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.http.HttpMethod;
 import org.springframework.web.reactive.function.server.RouterFunction;
 import org.springframework.web.reactive.function.server.ServerResponse;
-
-import java.util.Arrays;
 
 import static org.springframework.http.MediaType.APPLICATION_JSON;
 import static org.springframework.web.reactive.function.server.RequestPredicates.*;
